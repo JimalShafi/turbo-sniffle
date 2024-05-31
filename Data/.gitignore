@@ -16,10 +16,9 @@ env/
 venv.bak/
 venv.bak2/
 
-# Ignore data files
-Data/
-*.csv
-*.db
+# Ignore data files except for LFS tracked files
+Data/*
+!Data/im.db
 
 # Ignore outputs
 outputs/
