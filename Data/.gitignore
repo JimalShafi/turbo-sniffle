@@ -1,13 +1,42 @@
-# Python
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python bytecode files
 __pycache__/
 *.pyc
 
-# Jupyter Notebook
-.ipynb_checkpoints/
+# Ignore environment files
+.env
+venv/
+ENV/
+env/
+venv.bak/
+venv.bak2/
 
-# Data
+# Ignore data files
+Data/
 *.csv
 *.db
 
-# Output files
-Results/
+# Ignore outputs
+outputs/
+*.log
+*.out
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore generated slides
+*.html
+*.pdf
+
+# Ignore large files specifically
+# Add your large file patterns here if any
+*.large_file_extension
+
+# Ignore Jupyter Notebook metadata
+*.ipynb_metadata.json
